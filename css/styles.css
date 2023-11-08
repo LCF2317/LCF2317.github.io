@@ -1,0 +1,268 @@
+/* style for body */
+body,
+h1,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #0f0c0c;
+    /* Text color for non-background elements */
+}
+
+/*style for logo setting  */
+.logo {
+    float: left;
+    padding: 10px;
+}
+
+.logo img {
+    padding: 10px;
+    width: 2;
+    /* Adjust the width as needed */
+    height: auto;
+    border-radius: 50%;
+}
+
+/* style for nav bar */
+nav {
+    float: right;
+}
+
+nav ul {
+    list-style: none;
+    padding-right:10px;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+    margin-top: 25px;
+}
+
+nav a {
+    background-color: #262525;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    transition: color 0.3s;
+    /* Add a smooth color transition */
+}
+
+nav a:hover {
+    background-color: #1666c7;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    text-decoration: underline;
+    /* Change color on hover */
+}
+
+
+.bg-img {
+    background-image: url('../images/bg3.jpg');
+    background-size: cover;
+    background-position: center;
+    background-position: left;
+    background-repeat: no-repeat;
+    color: #fff;
+    /* Text color on top of the background image */
+    text-align: center;
+    padding: 190px 0;
+    /* Adjust padding as needed */
+}
+
+.index-main {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.index-main h1 {
+    font-size: 36px;
+    color: #fff;
+    margin: 20px 0;
+    text-transform: uppercase;
+    /* Uppercase text */
+}
+
+.index-main p {
+    font-size: 18px;
+    color: #fff;
+    /* Text color for paragraphs */
+    margin: 20px 0;
+    line-height: 1;
+    /* Adjust line height for readability */
+}
+
+footer {
+    font-size: 12px;
+    text-align: center;
+    margin: 20px 0;
+    color: #fff;
+    /* Text color for footer */
+    background-color: #333;
+    padding: 10px 0;
+    border-top: 2px solid #f5a623;
+    /* Add a top border */
+}
+
+footer a {
+    color: #f5a623;
+    /* Footer link color */
+    text-decoration: none;
+    transition: color 0.3s;
+    /* Smooth color transition for footer links */
+}
+
+footer a:hover {
+    color: #fff;
+    /* Change link color on hover */
+}
+
+
+
+
+
+
+/* css for the special.html */
+.special_body {
+    font-family: Arial, sans-serif;
+    background-color: #17406c;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background: #00000038;
+    color: #fff;
+    padding: 20px 120px;
+}
+
+.welcm_week_head{
+    color: #f5a623;
+    font-size: 36px;
+
+}
+h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+h2 {
+    font-size: 28px;
+    margin: 30px 0 10px;
+    color: #f6ebeb;
+    text-align: center;
+}
+
+.paragraph{
+    font-size: 18px;
+    color: #ffffff;
+    max-width: 1200px;
+    margin: 0 auto 20px;
+}
+
+.product-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.product {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    text-align: left;
+    overflow: hidden;
+    transition: transform 0.2s;
+}
+
+.product:hover {
+    transform: translateY(-5px);
+}
+
+.product img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    max-height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.product-info {
+    padding: 20px;
+}
+
+.product h3 {
+    font-size: 24px;
+    margin: 0;
+    color: #ffffff;
+}
+
+.product p {
+    font-size: 16px;
+    color: #555;
+}
+
+.customer-guarantee {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffc600;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
+}
+
+.customer-guarantee p {
+    font-size: 18px;
+    color: #333;
+}
+
+.guarantee-image {
+    display: block;
+    margin: 20px auto;
+    height: 350px;
+    width: 600px;
+}
+
+.reasons {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.reasons h2 {
+    font-size: 28px;
+    color: #ffffff;
+    margin: 30px 0 10px;
+}
+
+.reason {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.reason img {
+    max-width: 100px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.reason p {
+    font-size: 18px;
+    color: #ffffff;
+}
