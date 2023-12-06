@@ -12,7 +12,6 @@ body {
     color: #0f0c0c;
     /* Text color for non-background elements */
 }
-
 /*style for logo setting  */
 .logo {
     float: left;
@@ -246,7 +245,7 @@ h2 {
 
 .reasons h2 {
     font-size: 28px;
-    color: #ffffff;
+    color:  #ffc600;
     margin: 30px 0 10px;
 }
 
